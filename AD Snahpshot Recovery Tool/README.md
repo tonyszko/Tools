@@ -60,7 +60,7 @@ oirecmgr.exe -of guids.txt -sh lhfdc1:1389 -ol -real
 Recover AD objects with GUIDs specified in file and recovers all attributes from snapshot using specified snapshot host.
 
 </code>
-<pre>
+</pre>
 
 ## Disclaimer
 
