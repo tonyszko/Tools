@@ -6,6 +6,7 @@ This tool can be also used to populate existing (not deleted) object with data f
 
 You can read more about AD snapshots and how to work with them in Daniel's Petri excelent article: [Working with Active Directory Snapshots in Windows Server 2008](https://petri.com/working-active-directory-snapshots-windows-server-2008).
 
+<pre><code>
 Usage:
 
 Snapshot Recovery Tool ver.1.0.2rel
@@ -58,6 +59,8 @@ Example 3:
 oirecmgr.exe -of guids.txt -sh lhfdc1:1389 -ol -real
 Recover AD objects with GUIDs specified in file and recovers all attributes from snapshot using specified snapshot host.
 
+</code>
+<pre>
 
 ## Disclaimer
 
