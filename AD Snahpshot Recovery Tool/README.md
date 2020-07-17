@@ -25,16 +25,16 @@ Connection options
 -u username Username. If not specified current security context will be used
 -p pwd Password. If not specified current security context will be used
 
-Recovery options
+Recovery options:
 -real Performs real recovery operation. By default this tool runs in preview mode
 -ol Recover object with recovering attributes from snapshot data. Specifing snaphsot connection option (-sh) is required.
 -ra [attrs] Recover all non-linked attributes for object. Requires -ol to be specified. List of attributes to recover can be specified separated with spaces.
--rfl[attrs] Recover all forward-link attributes for object. Requires -ol to be specified. List of attributes to recover can be specified separated with spaces.
+-rfl [attrs] Recover all forward-link attributes for object. Requires -ol to be specified. List of attributes to recover can be specified separated with spaces.
 -rbl [attrs] Recover linked value attributes for all naming contexts. LDIF files will be generated for object from other naming cotnext. List of attributes to recover can be specified separated with spaces.
 -rta Recover attributes preserved in tombstone from snapshot data.
 -errok Ignore single attribute level recovery errors
 
-Snapshot search options
+Snapshot search options:
 -sb <search base> LDAP query search base specified as DN
 -ss <base|onelevel|subtree> LDAP query scope
 -sf <filter> LDAP query filter
