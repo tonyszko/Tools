@@ -78,4 +78,4 @@ Recover AD objects with GUIDs specified in file and recovers all attributes from
 ## Disclaimer
 
 This software is distributed as free download. Use it at your own risk.
-I put a lot of efforts in this software development and testing, however 1Identity does not warrant that this software will meet specific requirements or will not make any damage to directory service data.
+I put a lot of efforts in this software development and testing, however Tomasz Onyszko does not warrant that this software will meet specific requirements or will not make any damage to directory service data.
