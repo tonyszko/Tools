@@ -21,17 +21,30 @@ Target options:
 
 Switches:
 Connection options
--h ldapHost[:port] LDAP host in host:port format. If port will not be specified, default 389 port number will be used
--sh snapshot[:port] Snapshot LDAP host in host:port format. If port will not be specified, default 1389 port number will be used
+
+-h ldapHost[:port] LDAP host in host:port format. 
+If port will not be specified, default 389 port number will be used
+
+-sh snapshot[:port] Snapshot LDAP host in host:port format. 
+If port will not be specified, default 1389 port number will be used
+
 -u username Username. If not specified current security context will be used
 -p pwd Password. If not specified current security context will be used
 
 Recovery options:
 -real Performs real recovery operation. By default this tool runs in preview mode
--ol Recover object with recovering attributes from snapshot data. Specifing snaphsot connection option (-sh) is required.
--ra [attrs] Recover all non-linked attributes for object. Requires -ol to be specified. List of attributes to recover can be specified separated with spaces.
--rfl [attrs] Recover all forward-link attributes for object. Requires -ol to be specified. List of attributes to recover can be specified separated with spaces.
--rbl [attrs] Recover linked value attributes for all naming contexts. LDIF files will be generated for object from other naming cotnext. List of attributes to recover can be specified separated with spaces.
+-ol Recover object with recovering attributes from snapshot data. 
+Specifing snaphsot connection option (-sh) is required.
+
+-ra [attrs] Recover all non-linked attributes for object. 
+Requires -ol to be specified. List of attributes to recover can be specified separated with spaces.
+
+-rfl [attrs] Recover all forward-link attributes for object. 
+Requires -ol to be specified. List of attributes to recover can be specified separated with spaces.
+
+-rbl [attrs] Recover linked value attributes for all naming contexts. 
+LDIF files will be generated for object from other naming cotnext. List of attributes to recover can be specified separated with spaces.
+
 -rta Recover attributes preserved in tombstone from snapshot data.
 -errok Ignore single attribute level recovery errors
 
